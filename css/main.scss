@@ -1,0 +1,112 @@
+// *{outline:1px solid rgba(255,0,0,1);}
+$color_uno: #1C1821;
+$color_dos: #2D2735;
+$color_tres: #1C1821;
+$color_text: #F5BD60;
+$color_parrafo: #fff;
+$color_cuatro: #1C1820;
+$fuentetit:"Courgette", cursive;
+$fuenteparr:"Open Sans", sans-serif;
+$fuentecursive:"Open Sans Condensed", sans-serif;
+// $fondo1: url("../image/header-image.jpg") no-repeat;
+h1, h3{
+	color: $color_text;
+	font-family: $fuentetit;
+}
+h5{
+	font-family: $fuentecursive;
+	color: $color_parrafo;
+}
+p, h4,{
+	color: $color_parrafo;
+	font-family: $fuenteparr;
+}
+img{
+	max-width: 100%;
+}
+body{
+	background-color: $color_dos;
+}
+.fondo1{
+	background-color: $color_uno;
+}
+.pull-right li{
+	margin-top: 40px;
+}
+.pull-right a{	
+	text-decoration: none;
+	color: $color_parrafo;
+}
+.fondo2 .row{
+	background: url("../image/header-image.jpg") no-repeat;
+	background-size: cover;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.fondo2 h1{
+	font-size: 60px;
+}
+.fondo2 .col-md-4{
+	background-color: $color_uno;
+	margin-top: 100px;
+	margin-left: 400px;
+	margin-bottom: 100px;
+	padding:15px 
+}
+.col-md-4 a{
+	text-decoration: none;
+	color:$color_parrafo;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.caption{
+	background-color: $color_tres;
+}
+.galeria .col-md-4{
+	padding-right: 0;
+    padding-left: 0;
+}
+.thumbnail{
+	background-color: $color_dos;
+	border-color: $color_dos;
+}
+.video .col-md-7 .col-md-5{
+	padding-left: 0;
+	padding-right: 0;
+}
+.fondo3{
+	background-color: $color_cuatro;
+}
+.fondo3 h3, h4, h5,{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.fondo3 p{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+.solo{
+	margin-top: -20px;
+}
+.form{
+	border: 25px solid $color_cuatro;
+}
+.form input{
+	background-color: $color_dos;
+	border: none;
+}
+.pie{
+	background-color: $color_cuatro;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	font-size: 12px;
+}
+.icon i{
+	color: $color_parrafo;
+	border-radius: 120px;
+	padding: 10px;
+	background-color: $color_dos;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
